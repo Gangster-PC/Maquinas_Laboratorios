@@ -1,19 +1,17 @@
-Escaneo de puertos:
-<<<<<<< HEAD
+Escaneo de puertos con Nmap:
 
 ![](../../../Images/Pasted%20image%2020240821204229.png)
 
 Observo lo que hay en el puerto 80:
-=======
 
 ![](../../../Images/Pasted%20image%2020240821204229.png)
 
-Veamos lo que hay en el puerto 80:
->>>>>>> 5ba57b1 (Subida de archivos editada con Python para corregir formato de imagenes)
+Veo lo que hay en el puerto 80:
+(Subida de archivos editada con Python para corregir formato de imagenes)
 
 ![](../../../Images/Pasted%20image%2020240821204337.png)
 
-Nos llama la atención lo de inyecciones SQL, así que probaremos hacerle una al panel de login
+Me llama la atención lo de inyecciones SQL, así que probaré hacerle una al panel de login
 
 ![](../../../Images/Pasted%20image%2020240821205017.png)
 
@@ -23,72 +21,79 @@ Nos llama la atención lo de inyecciones SQL, así que probaremos hacerle una al
 
 Y efectivamente la web es vulnerable a inyecciones SQL
 
-Vamos a hacer una inyección SQL con ayuda de la herramienta Sqlmap:
-1. Enumeraremos posibles bases de datos
+Voy a hacer una inyección SQL con ayuda de la herramienta Sqlmap:
+
+1. Enumeraré posibles bases de datos
 
 ```
 sqlmap --url http://dev.budasec.thl --dbs --batch --forms  
 ```
 
 ![](../../../Images/Pasted%20image%2020240821205609.png)
+
 ![](../../../Images/Pasted%20image%2020240821205617.png)
 
 Usaré la base de datos injectors_db
 
-2. Enumeraremos posibles tablas, de esta base de datos:
+2. Enumero posibles tablas, de esta base de datos:
+
 ![](../../../Images/Pasted%20image%2020240821205801.png)
+
 ![](../../../Images/Pasted%20image%2020240821205750.png)
 
-Tenemos la tabla llamada Users
+Tengo la tabla llamada Users
 
-2. Enumeraremos posibles columnas de esta tabla:
+2. Enumeraré posibles columnas de esta tabla:
 
 ![](../../../Images/Pasted%20image%2020240821205833.png)
+
 ![](../../../Images/Pasted%20image%2020240821210112.png)
 
-Tenemos 3 columnas id, password y username
+Tengo 3 columnas id, password y username
 
-3. Y por último, enumeraremos usuarios de estas 4 columnas:
+3. Y por último, enumeraré usuarios de estas 4 columnas:
 
 ![](../../../Images/Pasted%20image%2020240821210209.png)
+
 ![](../../../Images/Pasted%20image%2020240821210750.png)
 
-Vemos que el tal "no_mirar_en_este_directorio" en realidad puede ser un directorio, accedamos a el
+Observo que el tal "no_mirar_en_este_directorio" en realidad puede ser un directorio, accedo a él:
 
 ![](../../../Images/Pasted%20image%2020240821210702.png)
 
-Nos descargamos el .zip:
+Me descargamos el .zip:
 
 ![](../../../Images/Pasted%20image%2020240821210821.png)
 
-Le extraemos el hash al .zip con Zip2john y lo crackeamos con John:
+Le extraigo el hash al .zip con Zip2john y lo crackeo con John:
 
 ![](../../../Images/Pasted%20image%2020240821210939.png)
 
 La contraseña para descomprimir el secret.zip es computer
 
-Lo descomprimimos y leemos el .txt q contiene:
+Lo descomprimo y leo el .txt q contiene:
 
 ![](../../../Images/Pasted%20image%2020240821211020.png)
 
-Intrusión por el puerto 22 SSH, con estas credenciales que nos dejó el .txt:
+Intrusión por el puerto 22 SSH, con estas credenciales que me dejó el .txt:
 
 ![](../../../Images/Pasted%20image%2020240821211119.png)
 
-Y estamos dentro de la máquina
+Y ahora estoy dentro de la máquina
 
 Flag de user:
 
 ![](../../../Images/Pasted%20image%2020240821211155.png)
+
 ## ESCALADA DE PRIVILEGIOS
 
-Ejecutamos sudo -l para ver el binario que podremos usar:
+Ejecuto sudo -l para ver el binario que podré usar:
 
 ![](../../../Images/Pasted%20image%2020240821211637.png)
 
-Podemos ser el usuario capa con el binario Busybox
+Puedo ser el usuario capa con el binario Busybox
 
-Miramos en GTFOBins como podemos escalar con este binario:
+Miro en GTFOBins como podemos escalar con este binario:
 
 ![](../../../Images/Pasted%20image%2020240821211621.png)
 
@@ -112,11 +117,11 @@ Miramos en GTFOBins como podemos escalar con este binario:
 
 ![](../../../Images/Pasted%20image%2020240821212053.png)
 
-Lo ejecutamos:
+Lo ejecuto:
 
 ![](../../../Images/Pasted%20image%2020240821212144.png)
 
-Obtenemos la id_rsa de root, la pasamos a nuestro kali:
+Obtengo la id_rsa de root, la paso a mi kali:
 
 ![](../../../Images/Pasted%20image%2020240821212235.png)
 
@@ -124,7 +129,7 @@ Intrusión por el puerto 22 SSH con el usuario root usando la id_rsa:
 
 ![](../../../Images/Pasted%20image%2020240821212316.png)
 
-Y listo, ya somos ROOT
+Y listo, ya soy ROOT
 
 Flag de root:
 
