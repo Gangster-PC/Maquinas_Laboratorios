@@ -1,0 +1,261 @@
+{
+  "main": {
+    "id": "30ffcde37fa5189c",
+    "type": "split",
+    "children": [
+      {
+        "id": "6e491a11942c01fc",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "c0a10455ec94a48b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "MAQUINAS/Dockerlabs/Muy facil/BorazuwarahCTF.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "BorazuwarahCTF"
+            }
+          },
+          {
+            "id": "5c9245826f277484",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "MAQUINAS/TheHackerLabs/Principiante/CampanaFeliz.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "CampanaFeliz"
+            }
+          },
+          {
+            "id": "0f49ff6e5c55df6c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "MAQUINAS/Dockerlabs/Medio/Apolos.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Apolos"
+            }
+          },
+          {
+            "id": "f7fb4c24623ea60e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "MAQUINAS/Dockerlabs/Medio/Unrecover.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Unrecover"
+            }
+          }
+        ],
+        "currentTab": 3
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "a97541285a2c02e5",
+    "type": "split",
+    "children": [
+      {
+        "id": "ea66b687116c1397",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "5f580e68092d69b1",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "d54cd328f50b0c37",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Buscar"
+            }
+          },
+          {
+            "id": "cc35bdd3f1df3b51",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Marcadores"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "0af7cb4c9fe084cb",
+    "type": "split",
+    "children": [
+      {
+        "id": "ca2ac4ae07514f7f",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "5c533d9e8eac3cfe",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "MAQUINAS/Dockerlabs/Facil/Allien.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Enlaces entrantes de Allien"
+            }
+          },
+          {
+            "id": "6ebab87e7ed8ad12",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "MAQUINAS/Dockerlabs/Facil/Allien.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Enlaces salientes de Allien"
+            }
+          },
+          {
+            "id": "d0bcf9f0f9f48040",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              },
+              "icon": "lucide-tags",
+              "title": "Etiquetas"
+            }
+          },
+          {
+            "id": "e158eb44e911f882",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "MAQUINAS/Dockerlabs/Facil/Allien.md"
+              },
+              "icon": "lucide-list",
+              "title": "Esquema de Allien"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 200,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "obsidian42-brat:BRAT": false,
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "f7fb4c24623ea60e",
+  "lastOpenFiles": [
+    "MAQUINAS/Dockerlabs/Medio/Devil.md",
+    "Images/Pasted image 20240705194332.png",
+    "MAQUINAS/Dockerlabs/Medio/Apolos.md",
+    "MAQUINAS/Dockerlabs/Medio/404-not-found.md",
+    "MAQUINAS/Dockerlabs/Facil/Vendetta.md",
+    "MAQUINAS/Dockerlabs/Facil/Reflection.md",
+    "MAQUINAS/Dockerlabs/Facil/Redirection.md",
+    "MAQUINAS/Dockerlabs/Facil/Pressenter.md",
+    "MAQUINAS/Dockerlabs/Facil/Mirame.md",
+    "MAQUINAS/Dockerlabs/Facil/Paradise.md",
+    "MAQUINAS/Dockerlabs/Facil/Findyourstyle.md",
+    "MAQUINAS/Dockerlabs/Facil/Jenkhack.md",
+    "MAQUINAS/Dockerlabs/Facil/Elevator.md",
+    "MAQUINAS/Dockerlabs/Facil/ConsoleLog.md",
+    "MAQUINAS/Dockerlabs/Facil/Candy.md",
+    "MAQUINAS/Dockerlabs/Facil/Allien.md",
+    "MAQUINAS/Dockerlabs/Muy facil/BorazuwarahCTF.md",
+    "MAQUINAS/Dockerlabs/Facil/Balulero.md",
+    "MAQUINAS/Dockerlabs/Facil/Backend.md",
+    "Images/Pasted image 20250427211813.png",
+    "Images/Pasted image 20250427211804.png",
+    "MAQUINAS/TheHackerLabs/Principiante/Find-Me.md",
+    "MAQUINAS/TheHackerLabs/Principiante/CryptoLabyrinth.md",
+    "MAQUINAS/TheHackerLabs/Avanzado/Webos.md",
+    "MAQUINAS/TheHackerLabs/Principiante/TheFirstAvenger.md",
+    "MAQUINAS/TheHackerLabs/Principiante/CampanaFeliz.md",
+    "MAQUINAS/Dockerlabs/Medio/Cracker.md",
+    "MAQUINAS/Dockerlabs/Medio/Chmod-4755.md",
+    "Images/Pasted image 20250216174244.png",
+    "Images/Pasted image 20250216174216.png",
+    "Images/Pasted image 20250216174024.png",
+    "Images/Pasted image 20250216173954.png",
+    "Images/Pasted image 20250216173301.png",
+    "Images/Pasted image 20250216173121.png",
+    "Images/Pasted image 20250216173046.png",
+    "MAQUINAS/TheHackerLabs/Principiante/Avengers.md",
+    "Vulnyx/Bajo",
+    "Vulnyx",
+    "MAQUINAS/TheHackerLabs/Avanzado",
+    "Sin título.canvas",
+    "MAQUINAS/TheHackerLabs/Principiante",
+    "MAQUINAS/TheHackerLabs",
+    "MAQUINAS/Dockerlabs/Muy facil/Injection",
+    "Images",
+    "MAQUINAS/Dockerlabs/Muy facil/Trust",
+    "MAQUINAS/Dockerlabs/Sin título.canvas",
+    "MAQUINAS/Dockerlabs/Muy facil",
+    "MAQUINAS/Dockerlabs/Medio"
+  ]
+}
