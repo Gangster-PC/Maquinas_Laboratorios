@@ -35,6 +35,3 @@ Lo ejecutamos:
 
 Y listo, ya somos usuario ROOT 
 
-
-
-

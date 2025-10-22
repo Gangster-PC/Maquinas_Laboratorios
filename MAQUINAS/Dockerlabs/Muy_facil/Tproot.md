@@ -24,4 +24,3 @@ Estoy dentro de la máquina y de una vez entré siendo ROOT
 Flag de root:
 ![](../../../Images/Pasted%20image%2020250212074412.png)
 
-

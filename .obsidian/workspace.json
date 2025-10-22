@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "6e491a11942c01fc",
+        "id": "3297cce5405188de",
         "type": "tabs",
         "children": [
           {
-            "id": "c0a10455ec94a48b",
+            "id": "f1b8f8601c45692b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MAQUINAS/Dockerlabs/Muy facil/BorazuwarahCTF.md",
+                "file": "MAQUINAS/Dockerlabs/Muy_facil/BorazuwarahCTF.md",
                 "mode": "source",
                 "source": false
               },
@@ -22,49 +22,35 @@
             }
           },
           {
-            "id": "5c9245826f277484",
+            "id": "751487abf5a37b98",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MAQUINAS/TheHackerLabs/Principiante/CampanaFeliz.md",
+                "file": "MAQUINAS/Dockerlabs/Muy_facil/Ejotapete.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "CampanaFeliz"
+              "title": "Ejotapete"
             }
           },
           {
-            "id": "0f49ff6e5c55df6c",
+            "id": "e3cdd05f34e95025",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MAQUINAS/Dockerlabs/Medio/Apolos.md",
+                "file": "MAQUINAS/TheHackerLabs/Principiante/Find-Me.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Apolos"
-            }
-          },
-          {
-            "id": "f7fb4c24623ea60e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "MAQUINAS/Dockerlabs/Medio/Unrecover.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Unrecover"
+              "title": "Find-Me"
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -96,7 +82,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "binarios",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -104,7 +90,7 @@
                 "sortOrder": "alphabetical"
               },
               "icon": "lucide-search",
-              "title": "Buscar"
+              "title": "Search"
             }
           },
           {
@@ -117,7 +103,8 @@
               "title": "Marcadores"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -198,53 +185,54 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "obsidian42-brat:BRAT": false,
+      "bases:Create new base": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
-      "command-palette:Open command palette": false
+      "command-palette:Open command palette": false,
+      "obsidian42-brat:BRAT": false
     }
   },
-  "active": "f7fb4c24623ea60e",
+  "active": "751487abf5a37b98",
   "lastOpenFiles": [
-    "MAQUINAS/Dockerlabs/Medio/Devil.md",
-    "Images/Pasted image 20240705194332.png",
-    "MAQUINAS/Dockerlabs/Medio/Apolos.md",
-    "MAQUINAS/Dockerlabs/Medio/404-not-found.md",
-    "MAQUINAS/Dockerlabs/Facil/Vendetta.md",
-    "MAQUINAS/Dockerlabs/Facil/Reflection.md",
-    "MAQUINAS/Dockerlabs/Facil/Redirection.md",
-    "MAQUINAS/Dockerlabs/Facil/Pressenter.md",
-    "MAQUINAS/Dockerlabs/Facil/Mirame.md",
-    "MAQUINAS/Dockerlabs/Facil/Paradise.md",
-    "MAQUINAS/Dockerlabs/Facil/Findyourstyle.md",
-    "MAQUINAS/Dockerlabs/Facil/Jenkhack.md",
-    "MAQUINAS/Dockerlabs/Facil/Elevator.md",
-    "MAQUINAS/Dockerlabs/Facil/ConsoleLog.md",
-    "MAQUINAS/Dockerlabs/Facil/Candy.md",
-    "MAQUINAS/Dockerlabs/Facil/Allien.md",
-    "MAQUINAS/Dockerlabs/Muy facil/BorazuwarahCTF.md",
-    "MAQUINAS/Dockerlabs/Facil/Balulero.md",
-    "MAQUINAS/Dockerlabs/Facil/Backend.md",
-    "Images/Pasted image 20250427211813.png",
-    "Images/Pasted image 20250427211804.png",
     "MAQUINAS/TheHackerLabs/Principiante/Find-Me.md",
-    "MAQUINAS/TheHackerLabs/Principiante/CryptoLabyrinth.md",
-    "MAQUINAS/TheHackerLabs/Avanzado/Webos.md",
-    "MAQUINAS/TheHackerLabs/Principiante/TheFirstAvenger.md",
-    "MAQUINAS/TheHackerLabs/Principiante/CampanaFeliz.md",
-    "MAQUINAS/Dockerlabs/Medio/Cracker.md",
+    "MAQUINAS/Dockerlabs/Muy_facil/Ejotapete.md",
+    "Images/Pasted image 20251022111835.png",
     "MAQUINAS/Dockerlabs/Medio/Chmod-4755.md",
-    "Images/Pasted image 20250216174244.png",
-    "Images/Pasted image 20250216174216.png",
-    "Images/Pasted image 20250216174024.png",
-    "Images/Pasted image 20250216173954.png",
-    "Images/Pasted image 20250216173301.png",
-    "Images/Pasted image 20250216173121.png",
-    "Images/Pasted image 20250216173046.png",
-    "MAQUINAS/TheHackerLabs/Principiante/Avengers.md",
+    "MAQUINAS/TheHackerLabs/Avanzado/Bridgenton.md",
+    "MAQUINAS/Dockerlabs/Facil/Backend.md",
+    "Images/Pasted image 20251022110859.png",
+    "Images/Pasted image 20251022110514.png",
+    "Images/Pasted image 20251022110509.png",
+    "Images/Pasted image 20251022110021.png",
+    "MAQUINAS/Dockerlabs/Muy_facil/BorazuwarahCTF.md",
+    "MAQUINAS/Dockerlabs/Medio/Dance-Samba.md",
+    "Images/Pasted image 20251022104209.png",
+    "Images/Pasted image 20251022104012.png",
+    "Images/Pasted image 20251022103953.png",
+    "Images/Pasted image 20251022103732.png",
+    "Images/Pasted image 20251022103605.png",
+    "MAQUINAS/TheHackerLabs/Avanzado/Aceituno.md",
+    "MAQUINAS/Dockerlabs/Medio/Hackzones.md",
+    "MAQUINAS/Dockerlabs/Muy facil/Ejotapete.md",
+    "MAQUINAS/Dockerlabs/Muy_facil/Vacaciones.md",
+    "MAQUINAS/Dockerlabs/Muy_facil/Upload.md",
+    "MAQUINAS/Dockerlabs/Muy_facil/Tproot.md",
+    "MAQUINAS/Dockerlabs/Muy_facil/Trust.md",
+    "MAQUINAS/Dockerlabs/Muy_facil/Sjd.md",
+    "MAQUINAS/Dockerlabs/Muy_facil/Obsession.md",
+    "MAQUINAS/Dockerlabs/Muy_facil/Injection.md",
+    "MAQUINAS/Dockerlabs/Muy_facil/Hedgehod.md",
+    "MAQUINAS/Dockerlabs/Muy_facil/FirstHacking.md",
+    "MAQUINAS/Dockerlabs/Muy_facil/BreackMySSH.md",
+    "MAQUINAS/Dockerlabs/Muy_facil",
+    "MAQUINAS/Dockerlabs/Muy facil/FirstHacking.md",
+    "MAQUINAS/Dockerlabs/Muy facil/BorazuwarahCTF.md",
+    "MAQUINAS/Dockerlabs/Muy facil/BreackMySSH.md",
+    "MAQUINAS/Dockerlabs/Muy facil/Vacaciones.md",
+    "MAQUINAS/Dockerlabs/Medio/Inj3ct0rss.md",
     "Vulnyx/Bajo",
     "Vulnyx",
     "MAQUINAS/TheHackerLabs/Avanzado",
@@ -255,7 +243,6 @@
     "Images",
     "MAQUINAS/Dockerlabs/Muy facil/Trust",
     "MAQUINAS/Dockerlabs/Sin título.canvas",
-    "MAQUINAS/Dockerlabs/Muy facil",
-    "MAQUINAS/Dockerlabs/Medio"
+    "MAQUINAS/Dockerlabs/Muy facil"
   ]
 }

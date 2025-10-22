@@ -12,7 +12,6 @@ Tenemos 2 posibles usuarios Juan y Camilo
 Creamos un archivo de texto con estos 2 usuarios
 ![](../../../Images/Pasted%20image%2020240707201151.png)
 
-
 Haremos un ataque de fuerza bruta con Hydra a estos 2 posibles usuarios por medio del puerto 22
 ![](../../../Images/Pasted%20image%2020240707201248.png)
 Encontramos que el usuario es camilo y su contraseña es password1
@@ -41,5 +40,4 @@ Lo ejecutamos:
 ![](../../../Images/Pasted%20image%2020240707202109.png)
 
 Y listo, ya somos usuarios ROOT 
-
 
