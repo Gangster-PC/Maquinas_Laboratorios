@@ -1,4 +1,7 @@
 Escaneo de puertos:
+```
+nmap -p- -sC -sV -sS --min-rate 5000 -n -vvv -Pn 172.17.0.2 -oN escaneo
+```
 
 ![](../../../Images/Pasted%20image%2020240905205257.png)
 

@@ -72,4 +72,3 @@ Flag de root
 
 ![](../../../Images/Pasted%20image%2020240827092044.png)
 
-

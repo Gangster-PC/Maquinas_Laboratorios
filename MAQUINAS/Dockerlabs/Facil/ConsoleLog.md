@@ -31,7 +31,6 @@ Intrusión por el puerto 5000 SSH:
 
 Y listo, estoy dentro de la máquina
 
-
 ### ESCALADA DE PRIVILEGIOS
 
 Ejecuto sudo -l para ver el binario que puedo usar 
@@ -48,9 +47,7 @@ Lo ejecuto:
 
 ![](../../../Images/Pasted%20image%2020240731192711.png)
 
-
 ![](../../../Images/Pasted%20image%2020240731192734.png)
-
 
 ![](../../../Images/Pasted%20image%2020240731192818.png)
 

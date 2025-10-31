@@ -77,9 +77,3 @@ Lo ejecuto:
 
 Y listo, ya soy ROOT
 
-
-
-
-
-
-

@@ -74,6 +74,3 @@ Escalo a root con esta contraseña:
 
 Y listo, ya soy ROOT
 
-
-
-
