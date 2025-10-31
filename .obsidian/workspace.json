@@ -8,17 +8,31 @@
         "type": "tabs",
         "children": [
           {
-            "id": "503af823f95814f1",
+            "id": "d7aac12c1dc48fca",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MAQUINAS/Dockerlabs/Facil/Internship.md",
+                "file": "MAQUINAS/Dockerlabs/Facil/Walking_Dead.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Internship"
+              "title": "Walking_Dead"
+            }
+          },
+          {
+            "id": "074c4d55fbfc83d6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "MAQUINAS/Dockerlabs/Muy_facil/Ejotapete.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Ejotapete"
             }
           }
         ]
@@ -53,7 +67,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "stegh",
+                "query": "binarios",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -74,7 +88,8 @@
               "title": "Marcadores"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -165,26 +180,32 @@
       "obsidian42-brat:BRAT": false
     }
   },
-  "active": "503af823f95814f1",
+  "active": "d7aac12c1dc48fca",
   "lastOpenFiles": [
+    "Images/Pasted image 20251030204308.png",
+    "MAQUINAS/Dockerlabs/Muy_facil/Ejotapete.md",
+    "MAQUINAS/Dockerlabs/Facil/Walking_Dead.md",
+    "Images/Pasted image 20251030204145.png",
+    "Images/Pasted image 20251030204121.png",
     "MAQUINAS/Dockerlabs/Facil/Internship.md",
-    "Images/Pasted image 20251030194943.png",
-    "Images/Pasted image 20251030194724.png",
+    "Images/Pasted image 20251030203734.png",
+    "Images/Pasted image 20251030203713.png",
+    "MAQUINAS/Dockerlabs/Facil/Patriaquerida.md",
+    "Images/Pasted image 20251030203545.png",
+    "Images/Pasted image 20251030203505.png",
+    "Images/Pasted image 20251030203429.png",
+    "Images/Pasted image 20251030202154.png",
+    "Images/Pasted image 20251030201952.png",
+    "MAQUINAS/Dockerlabs/Medio/Cracker.md",
+    "MAQUINAS/TheHackerLabs/Avanzado/Buda.md",
+    "MAQUINAS/Dockerlabs/Medio/404-not-found.md",
+    "Images/Pasted image 20251030201439.png",
     "MAQUINAS/Dockerlabs/Muy_facil/BorazuwarahCTF.md",
-    "Images/Pasted image 20251030194536.png",
-    "Images/Pasted image 20251030194407.png",
-    "Images/Pasted image 20251030194310.png",
     "MAQUINAS/TheHackerLabs/Avanzado/Cachopo.md",
     "MAQUINAS/Dockerlabs/Facil/Mirame.md",
     "MAQUINAS/Dockerlabs/Facil/File.md",
     "MAQUINAS/TheHackerLabs/Principiante/Mortadela.md",
-    "Images/Pasted image 20251030194036.png",
-    "Images/Pasted image 20251030193758.png",
-    "Images/Pasted image 20251030193520.png",
-    "Images/Pasted image 20251030193515.png",
     "MAQUINAS/Dockerlabs/Medio/0xc0ffee.md",
-    "Images/Pasted image 20251030193221.png",
-    "MAQUINAS/Dockerlabs/Muy_facil/Ejotapete.md",
     "MAQUINAS/Dockerlabs/Facil/Backend.md",
     "MAQUINAS/Dockerlabs/Facil/Jenkhack.md",
     "MAQUINAS/Dockerlabs/Facil/Findyourstyle.md",
@@ -197,11 +218,6 @@
     "MAQUINAS/Dockerlabs/Medio/Hackzones.md",
     "MAQUINAS/Dockerlabs/Muy facil/Ejotapete.md",
     "MAQUINAS/Dockerlabs/Muy_facil/Vacaciones.md",
-    "MAQUINAS/Dockerlabs/Muy_facil/Upload.md",
-    "MAQUINAS/Dockerlabs/Muy_facil/Tproot.md",
-    "MAQUINAS/Dockerlabs/Muy_facil/Trust.md",
-    "MAQUINAS/Dockerlabs/Muy_facil/Sjd.md",
-    "MAQUINAS/Dockerlabs/Muy_facil/Obsession.md",
     "MAQUINAS/Dockerlabs/Muy_facil",
     "Vulnyx/Bajo",
     "Vulnyx",
