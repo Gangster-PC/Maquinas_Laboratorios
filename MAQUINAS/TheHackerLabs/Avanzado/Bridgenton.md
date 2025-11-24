@@ -1,4 +1,7 @@
-Escaneo de puertos:
+Escaneo de puertos con Nmap:
+```
+nmap -p- -sC -sV -sS --min-rate 5000 -n -vvv -Pn 172.17.0.2 -oN escaneo
+```
 
 ![](../../../Images/Pasted%20image%2020240825130922.png)
 
@@ -50,7 +53,10 @@ Tratamiento de la TTY:
 
 ## ESCALADA DE PRIVILEGIOS
 
-Enumeraremos los binarios que contiene esta máquina:
+Miro los binarios que contiene la máquina:  
+```
+find / -perm -4000 -ls 2>/dev/null
+```
 
 ![](../../../Images/Pasted%20image%2020240826084407.png)
 

@@ -47,6 +47,10 @@ Y las credenciales q me sirven son las de pepe, ya estoy dentro de la máquina.
 ## ESCALADA DE PRIVILEGIOS
 
 Miro los binarios que contiene la máquina:  
+```
+find / -perm -4000 -ls 2>/dev/null
+```
+
 ![](../../../Images/Pasted%20image%2020240830181531.png)
 
 Y me llama la atención el binario Grep y Ls.
