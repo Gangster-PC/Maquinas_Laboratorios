@@ -55,7 +55,15 @@ Ahora me pongo a la escucha con Netcat por el puerto 443 y accedo a mi .php desd
 
 Y listo, estoy dentro de la máquina
 
-Tratamiento de la TTY:
+### Tratamiento de la TTY
+```
+script /dev/null -c bash 
+Ctrl z
+stty raw -echo; fg 
+reset xterm 
+export SHELL=bash
+export TERM=xterm
+```
 
 ![](../../../Images/Pasted%20image%2020241022095059.png)
 

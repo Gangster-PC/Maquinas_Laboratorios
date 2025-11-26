@@ -41,7 +41,17 @@ Lo guardo y voy a la pagina web del inicio pero ahora me lanzo la rev shell y me
 
 ![](../../../Images/Pasted%20image%2020240901154620.png)
 
-Recibo la conexión y hago el tratamiento de la TTY
+Recibo la conexión y ahora estoy dentro de la máquina
+
+### Tratamiento de la TTY
+```
+script /dev/null -c bash 
+Ctrl z
+stty raw -echo; fg 
+reset xterm 
+export SHELL=bash
+export TERM=xterm
+```
 
 ![](../../../Images/Pasted%20image%2020240901154653.png)
 

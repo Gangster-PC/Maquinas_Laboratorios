@@ -32,7 +32,15 @@ Y aquí vamos a pegarnos una RevShell en lenguaje Groovy, nos podemos a la escuc
 
 Y listo, recibimos la conexión y estamos dentro de la máquina
 
-Tratamiento de la TTY:
+### Tratamiento de la TTY
+```
+script /dev/null -c bash 
+Ctrl z
+stty raw -echo; fg 
+reset xterm 
+export SHELL=bash
+export TERM=xterm
+```
 
 ![](../../../Images/Pasted%20image%2020240820111553.png)
 

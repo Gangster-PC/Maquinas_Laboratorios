@@ -49,7 +49,17 @@ Y aqui lo tendremos
 
 Ahora nos podemos a la escucha con Netcat y daremos click en mi archivo malicioso para recibir conexión
 ![](../../../Images/Pasted%20image%2020240716124241.png)
-Y listo tenemos conexión, y de una vez hacemos tratamiento de la TTY
+Y listo tenemos conexión
+
+### Tratamiento de la TTY
+```
+script /dev/null -c bash 
+Ctrl z
+stty raw -echo; fg 
+reset xterm 
+export SHELL=bash
+export TERM=xterm
+```
 
 ## ESCALADA DE PRIVILEGIOS
 

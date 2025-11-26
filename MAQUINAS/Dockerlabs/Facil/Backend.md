@@ -60,7 +60,7 @@ Usaré el binario ls para ver las posibles carpetas que contiene /root:
 
 Tengo un .hash
 
-Ahorá miraré en GTFOBins como puedo escalar con el binario Grep:  
+Ahora miraré en GTFOBins como puedo escalar con el binario Grep:  
 ![](../../../Images/Pasted%20image%2020240830181608.png)
 
 Lo ejecuto apuntando hacia este archivo .hash q acabo de encontrar:  

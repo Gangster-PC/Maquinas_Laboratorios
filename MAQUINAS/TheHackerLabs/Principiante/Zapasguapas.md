@@ -42,7 +42,15 @@ Le escribiremos una reverse shell y nos pondremos a la escucha en mi kali para r
 
 Y listo, recibimos la conexión y ahora estamos dentro de la máquina
 
-Tratamiento de la tty:
+### Tratamiento de la TTY
+```
+script /dev/null -c bash 
+Ctrl z
+stty raw -echo; fg 
+reset xterm 
+export SHELL=bash
+export TERM=xterm
+```
 
 ![](../../../Images/Pasted%20image%2020240807100344.png)
 

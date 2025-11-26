@@ -99,7 +99,15 @@ Y doy click en el boton "Ejecutar Comando" y recibo automaticamente la rev shell
 
 ![](../../../Images/Pasted%20image%2020240724130656.png)
 
-Haré tratamiento de la TTY:
+### Tratamiento de la TTY
+```
+script /dev/null -c bash 
+Ctrl z
+stty raw -echo; fg 
+reset xterm 
+export SHELL=bash
+export TERM=xterm
+```
 
 ![](../../../Images/Pasted%20image%2020240724130726.png)
 

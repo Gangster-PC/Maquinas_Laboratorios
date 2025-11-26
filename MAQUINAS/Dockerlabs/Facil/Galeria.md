@@ -55,7 +55,7 @@ Ahora me pondré a la escucha con Netcat y daré click a mi archivo para recibir
 
 Y listo, ya estoy dentro de la máquina
 
-Procederé a realizar el tratamiento de la TTY:
+### Tratamiento de la TTY
 ```
 script /dev/null -c bash 
 Ctrl z

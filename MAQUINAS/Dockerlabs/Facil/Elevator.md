@@ -51,7 +51,15 @@ Doy click en mi archivo y me pongo a la escucha con Netcat:
 
 Recibo la conexión y listo, estoy dentro de la máquina
 
-Tratamiento de la TTY:
+### Tratamiento de la TTY
+```
+script /dev/null -c bash 
+Ctrl z
+stty raw -echo; fg 
+reset xterm 
+export SHELL=bash
+export TERM=xterm
+```
 
 ![](../../../Images/Pasted%20image%2020250114192826.png)
 

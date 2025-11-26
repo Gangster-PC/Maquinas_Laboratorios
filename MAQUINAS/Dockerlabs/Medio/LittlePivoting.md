@@ -36,7 +36,15 @@ Me pongo a la escucha con NetCat y doy click en mi archivo:
 
 Y recibo conexión, ahora estoy dentro de la máquina Upload
 
-Tratamiento de la TTY
+### Tratamiento de la TTY
+```
+script /dev/null -c bash 
+Ctrl z
+stty raw -echo; fg 
+reset xterm 
+export SHELL=bash
+export TERM=xterm
+```
 
 ![](../../../Images/Pasted%20image%2020240828090000.png)
 

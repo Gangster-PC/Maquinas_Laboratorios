@@ -52,7 +52,7 @@ La página se queda "pensando", me pongo a la escucha con Netcat:
 
 Y recibo exitosamente la conexión, ahora estoy dentro de la máquina
 
-Tratamiento de la TTY:
+### Tratamiento de la TTY:
 ```
 script /dev/null -c bash 
 Ctrl z

@@ -84,7 +84,15 @@ Nos ponemos a la escucha con netcat y damos click en nuestro archivo
 
 Y recibimos conexión
 
-Ahora haremos tratamiento de la tty:
+### Tratamiento de la TTY
+```
+script /dev/null -c bash 
+Ctrl z
+stty raw -echo; fg 
+reset xterm 
+export SHELL=bash
+export TERM=xterm
+```
 
 ![](../../../Images/Pasted%20image%2020240804193158.png)
 

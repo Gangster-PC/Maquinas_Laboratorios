@@ -27,7 +27,15 @@ Ahora accederemos a este archivo shell.php desde la pagina web y nos pondremos a
 
 Y recibimos la conexión
 
-Haremos tratamiento de la TTY:
+### Tratamiento de la TTY
+```
+script /dev/null -c bash 
+Ctrl z
+stty raw -echo; fg 
+reset xterm 
+export SHELL=bash
+export TERM=xterm
+```
 
 ![](../../../Images/Pasted%20image%2020240802193543.png)
 

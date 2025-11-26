@@ -67,7 +67,15 @@ Entonces ahora meteremos un comando de reverse shell y nos pondremos a la escuch
 
 Y listo, estamos dentro de la máquina
 
-Tratamiento de la TTY:
+### Tratamiento de la TTY
+```
+script /dev/null -c bash 
+Ctrl z
+stty raw -echo; fg 
+reset xterm 
+export SHELL=bash
+export TERM=xterm
+```
 
 ![](../../../Images/Pasted%20image%2020240816170932.png)
 
