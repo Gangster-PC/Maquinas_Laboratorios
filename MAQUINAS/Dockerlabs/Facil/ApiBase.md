@@ -25,7 +25,7 @@ Activo el proxy para poder conectarme
 
 ![](../../../Images/Pasted%20image%2020251102122119.png)
 
-Abro Burpsuite y envío la petición al Repeater:
+Abro Burpsuite, intercepto la petición y la envío al Repeater:
 
 ![](../../../Images/Pasted%20image%2020251102122243.png)
 
