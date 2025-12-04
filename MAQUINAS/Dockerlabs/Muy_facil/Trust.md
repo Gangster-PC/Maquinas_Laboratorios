@@ -40,7 +40,7 @@ Ejecuto sudo -l para ver el binario que podremos usar:
 
 Puedo usar el binario Vim para hacer la escalada a root
 
-Miro en GTFOBins como podemos escalar con este binario:
+Miro en GTFOBins como puedo escalar con este binario:
 
 ![](../../../Images/Pasted%20image%2020240705203729.png)
 
