@@ -22,7 +22,7 @@ Encontré el directorio /drupal, procederé a acceder a él:
 
 ![](../../../Images/Pasted%20image%2020251022103153.png)
 
-Y efectivamente estamos ante un Drupal 
+Y efectivamente estoy ante un Drupal 
 
 Procederé a abrir Msfconsole para encontrar un posible exploit para lograr acceder a este Drupal aún sabiendo que no tengo la versión de él
 
