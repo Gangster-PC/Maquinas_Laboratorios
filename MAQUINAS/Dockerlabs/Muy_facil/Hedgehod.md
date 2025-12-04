@@ -30,7 +30,7 @@ Ejecuto sudo -l para ver el binario que puedo usar
 ![](../../../Images/Pasted%20image%2020250212072337.png)
 
 Puedo escalar al super usuario usando "sudo su"
+
 ![](../../../Images/Pasted%20image%2020250212072513.png)
 
 Y listo, soy ROOT
-
