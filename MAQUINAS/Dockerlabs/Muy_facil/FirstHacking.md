@@ -1,12 +1,18 @@
-Escaneo de puertos:
+Escaneo de puertos con Nmap:
+```
+nmap -p- -sC -sV -sS --min-rate 5000 -n -vvv -Pn 172.17.0.2 -oN escaneo
+```
+
 ![](../../../Images/Pasted%20image%2020240707202327.png)
 
-Observamos que la versión del puerto FTP es antigua entonces buscaremos un exploit para entrar por ahí
-![](../../../Images/Pasted%20image%2020240707202814.png)
-Y nos lo descargamos
+Observo que la versión del puerto FTP es antigua entonces buscaré un exploit para entrar por ahí:
 
-Ahora lo ejecutamos
+![](../../../Images/Pasted%20image%2020240707202814.png)
+
+Y me lo descargaré
+
+Ahora lo ejecuto:
+
 ![](../../../Images/Pasted%20image%2020240707203025.png)
 
-Y ya accedemos siendo ROOT
-
+Y accedí a la máquina siendo ROOT
