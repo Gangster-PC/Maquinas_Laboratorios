@@ -37,7 +37,7 @@ gobuster dir -u http://172.17.0.2/ -w /usr/share/wordlists/seclists/Discovery/We
 
 Existe un directorio llamado /logs, pero al momento de acceder a él me lanza un código 403 la página es decir está restringido
 
-Entonces le pasaré mejor como parámetro a "page" la dirección /logs/logs.txt a la página donde si me dejó acceder:
+Entonces le pasaré como parámetro "page" al directorio /logs/logs.txt de la página donde si me dejó acceder:
 
 ![](../../../Images/Pasted%20image%2020251112162527.png)
 
@@ -66,11 +66,9 @@ socat - UNIX-CONNECT:/home/conx/.cache/.sockv
 
 ![](../../../Images/Pasted%20image%2020251118210558.png)
 
-V
-
 Y ahora me convertí en el usuario "conx"
 
-Si listo los `crontabs` que hay en la máquina veré:
+Si listo los `crontabs` que hay en la máquina me encontraré con:
 ```
 ls -la /etc/cron.d
 ```
