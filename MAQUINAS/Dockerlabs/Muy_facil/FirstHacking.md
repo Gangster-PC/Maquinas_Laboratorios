@@ -9,7 +9,7 @@ Observo que la versión del puerto FTP es antigua entonces buscaré un exploit p
 
 ![](../../../Images/Pasted%20image%2020240707202814.png)
 
-Y me lo descargaré
+Y lo descargaré
 
 Ahora lo ejecuto:
 
