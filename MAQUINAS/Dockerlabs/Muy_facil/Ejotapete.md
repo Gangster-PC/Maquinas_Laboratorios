@@ -40,7 +40,7 @@ Me pide el RHOSTS que es la dirección ip donde se encuentra el Drupal, también
 
 ![](../../../Images/Pasted%20image%2020251022103953.png)
 
-Rectifico que todos los campos hayan sido llenados correctamente:
+Rectifico que todos los campos hayan sido llenados correctamente con el mismo comando:
 
 ![](../../../Images/Pasted%20image%2020251022104012.png)
 
