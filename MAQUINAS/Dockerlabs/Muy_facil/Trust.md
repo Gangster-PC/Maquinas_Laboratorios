@@ -11,7 +11,7 @@ En el puerto 80 tengo:
 
 Haciendo fuzzing web con Gobuster me encuentro un Secret.php:
 ```
-gobuster dir -u http://172.17.0.2 -w /usr/share/wordlists/seclists/Discovery/Web-Content/directory-list-lowercase-2.3-medium.txt -x html,php,txt
+gobuster dir -u http://172.18.0.2 -w /usr/share/wordlists/seclists/Discovery/Web-Content/directory-list-lowercase-2.3-medium.txt -x html,php,txt
 ```
 
 ![](../../../Images/Pasted%20image%2020240705194549%201.png)
