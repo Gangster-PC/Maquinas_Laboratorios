@@ -1,4 +1,7 @@
 Escaneo de puertos con Nmap:
+```
+nmap -p- -sC -sV -sS --min-rate 5000 -n -vvv -Pn 172.17.0.2 -oN escaneo
+```
 
 ![](../../../Images/Pasted%20image%2020241006173840.png)
 
@@ -44,7 +47,7 @@ Lo ejecuto:
 
 Y listo, ahora soy el usuario chocolate
 
-Ahora me levantaré un servidor con python desde mi kali para pasar el Pspy64 a la máquina
+Ahora me levantaré un servidor con python desde mi kali para pasar el Pspy64 que es una herramienta usada para listar procesos/servicios que corren en segundo plano, y la pasaré a la máquina
 
 ![](../../../Images/Pasted%20image%2020241006174921.png)
 
@@ -54,7 +57,7 @@ Le doy permisos de ejecución y lo ejecuto:
 
 ![](../../../Images/Pasted%20image%2020241006175048.png)
 
-Y observo que cada 5 segundos se está ejecutando un script:
+Y observo que cada 5 segundos se está ejecutando un script en el directorio /opt:
 
 ![](../../../Images/Pasted%20image%2020241006175148.png)
 
@@ -62,7 +65,7 @@ Y el script hace:
 
 ![](../../../Images/Pasted%20image%2020241006175231.png)
 
-Entonces lo editaré y le colocaré permisos a la /bin/bash y después con solo ejecutar bash -p ya sería root:
+Entonces lo editaré y le colocaré permisos SUID a la /bin/bash y después con solo ejecutar bash -p ya sería root:
 
 ```
 echo -e "<?php\n\tsystem('chmod u+s /bin/bash');\n?>" > /opt/script.php
