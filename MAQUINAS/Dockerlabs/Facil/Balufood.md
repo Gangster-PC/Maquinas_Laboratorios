@@ -33,11 +33,11 @@ Así que recordando, tengo acceso al puerto 22 SSH probaré estas credenciales a
 
 ![](../../../Images/Pasted%20image%2020251106151910.png)
 
-Y si, ahora estoy dentro de la máquina
+Y si corresponden allí, ahora estoy dentro de la máquina
 
 ## ESCALADA DE PRIVILEGIOS
 
-Revisando mi actual directorio me encuentro con un app.py, leyendo el comienzo de dicho archivo observo un la clave algo interesante, parece ser una posible contraseña
+Revisando mi actual directorio me encuentro con un app.py, leyendo el comienzo de dicho archivo observo una clave algo interesante, parece ser una posible contraseña
 
 ![](../../../Images/Pasted%20image%2020251106153237.png)
 
