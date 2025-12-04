@@ -24,7 +24,7 @@ Encontré el directorio /drupal, procederé a acceder a él:
 
 Y efectivamente estoy ante un Drupal 
 
-Procederé a abrir Msfconsole para encontrar un posible exploit para lograr acceder a este Drupal aún sabiendo que no tengo la versión de él
+Procederé a abrir Msfconsole para encontrar un posible exploit que me permita acceder a este Drupal aún sabiendo que no tengo la versión de él
 
 ![](../../../Images/Pasted%20image%2020251022103500.png)
 
