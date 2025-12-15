@@ -5,13 +5,16 @@ nmap -p- -sC -sV -sS --min-rate 5000 -n -vvv -Pn 172.17.0.2 -oN escaneo
 
 ![](../../../Images/Pasted%20image%2020250114190110.png)
 
-Reviso el único puerto abierto, lo que corre por el puerto 80:
+Reviso el único puerto abierto, lo que corre por el puerto 80 HTTP:
 
 ![](../../../Images/Pasted%20image%2020250114190411.png)
 
-Interesante página con un botón
+Interesante página con un botón sin más
 
 Haré fuzzing web usando Gobuster, para encontrar posibles directorios:
+```
+gobuster dir -u http://172.17.0.2 -w /usr/share/wordlists/seclists/Discovery/Web-Content/directory-list-lowercase-2.3-medium.txt -x html,php,txt
+```
 
 ![](../../../Images/Pasted%20image%2020250114191513.png)
 
@@ -35,7 +38,7 @@ En el /archivo.html hay:
 
 Tengo una posible subida de archivos en formato imagen .jpg:
 
-Así que me crearé una Reverse Shell pero con un bypass de doble extensión es decir, un shell.php.jpg:
+Así que me crearé una Reverse Shell pero con un bypass de doble extensión es decir, un "shell.php.jpg":
 
 ![](../../../Images/Pasted%20image%2020250114192636.png)
 
@@ -71,7 +74,7 @@ Ejecuto sudo -l para ver el binario que puedo usar
 
 ![](../../../Images/Pasted%20image%2020250114192936.png)
 
-Puedo ser el usuario daphne con el binario Env
+Puedo ser el usuario "daphne" con el binario Env
 
 Miro en GTFOBins como puedo escalar con este binario:
 
@@ -81,13 +84,13 @@ Lo ejecuto:
 
 ![](../../../Images/Pasted%20image%2020250114193045.png)
 
-Ahora soy daphne
+Ahora soy "daphne"
 
 Ejecuto sudo -l para ver el binario que puedo usar
 
 ![](../../../Images/Pasted%20image%2020250114193109.png)
 
-Puedo ser el usuario vilma con el binario Ash
+Puedo ser el usuario "vilma" con el binario Ash
 
 Miro en GTFOBins como puedo escalar con este binario:
 
@@ -97,13 +100,13 @@ Lo ejecuto:
 
 ![](../../../Images/Pasted%20image%2020250114193209.png)
 
-Ahora soy el usuario vilma
+Ahora soy el usuario "vilma"
 
 Ejecuto sudo -l para ver el binario que puedo usar
 
 ![](../../../Images/Pasted%20image%2020250114193231.png)
 
-Puedo ser el usuario shaggy con el binario Ruby
+Puedo ser el usuario "shaggy" con el binario Ruby
 
 Miro en GTFOBins como puedo escalar con este binario:
 
@@ -113,13 +116,13 @@ Lo ejecuto:
 
 ![](../../../Images/Pasted%20image%2020250114193336.png)
 
-Ahora soy el usuario shaggy
+Ahora soy el usuario "shaggy"
 
 Ejecuto sudo -l para ver el binario que puedo usar
 
 ![](../../../Images/Pasted%20image%2020250114193402.png)
 
-Puedo ser el usuario fred con el binario Lua
+Puedo ser el usuario "fred" con el binario Lua
 
 Miro en GTFOBins como puedo escalar con este binario:
 
@@ -129,13 +132,13 @@ Lo ejecuto:
 
 ![](../../../Images/Pasted%20image%2020250114193459.png)
 
-Ahora soy el usuario fred
+Ahora soy el usuario "fred"
 
 Ejecuto sudo -l para ver el binario que puedo usar
 
 ![](../../../Images/Pasted%20image%2020250114193511.png)
 
-Puedo ser el usuario scooby con el binario Gcc
+Puedo ser el usuario "scooby" con el binario Gcc
 
 Miro en GTFOBins como puedo escalar con este binario:
 
@@ -145,7 +148,7 @@ Lo ejecuto:
 
 ![](../../../Images/Pasted%20image%2020250114193617.png)
 
-Ahora soy el usuario scooby
+Ahora soy el usuario "scooby"
 
 Ejecuto sudo -l para ver el binario que puedo usar
 
@@ -161,4 +164,4 @@ Lo ejecuto:
 
 ![](../../../Images/Pasted%20image%2020250114193755.png)
 
-Y listo, soy ROOT
+Y listo, ya por fin soy ROOT despues de un largo pivoting entre usuarios
