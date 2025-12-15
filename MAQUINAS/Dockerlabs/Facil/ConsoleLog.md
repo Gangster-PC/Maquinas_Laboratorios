@@ -1,9 +1,18 @@
+Escaneo de puertos con Nmap:
+```
+nmap -p- -sC -sV -sS --min-rate 5000 -n -vvv -Pn 172.17.0.2 -oN escaneo
+```
+
+![](../../../Images/Pasted%20image%2020251020215009.png)
+
 Observo lo que corre en el puerto 80: 
 
 ![](../../../Images/Pasted%20image%2020240731191705.png)
 
-Tengo una pagina con un boton que en realidad no hace nada
-Haré fuzzing web con la herramienta de Gobuster para encontrar directorios: 
+Tengo una pagina con un botón que en realidad no hace nada, por ende procederé a realizar fuzzing web con la herramienta de Gobuster para encontrar directorios: 
+```
+gobuster dir -u http://172.17.0.2 -w /usr/share/wordlists/seclists/Discovery/Web-Content/directory-list-lowercase-2.3-medium.txt -x html,php,txt
+```
 
 ![](../../../Images/Pasted%20image%2020240731191817.png)
 
@@ -13,7 +22,7 @@ Miro lo que hay en el directorio /backend
 
 Tengo unos archivos
 
-En el archivo server.js hay: 
+En el archivo "server.js" hay: 
 
 ![](../../../Images/Pasted%20image%2020240731191930.png)
 
@@ -23,15 +32,15 @@ Haré un ataque de fuerza bruta con Hydra a el puerto 5000 SSH con esta contrase
 
 ![](../../../Images/Pasted%20image%2020240731192349.png)
 
-El usuario es lovely
+El usuario es "lovely"
 
-Intrusión por el puerto 5000 SSH: 
+Intrusión por el puerto 5000 SSH con estas credenciales: 
 
 ![](../../../Images/Pasted%20image%2020240731192446.png)
 
 Y listo, estoy dentro de la máquina
 
-### ESCALADA DE PRIVILEGIOS
+## ESCALADA DE PRIVILEGIOS
 
 Ejecuto sudo -l para ver el binario que puedo usar 
 
