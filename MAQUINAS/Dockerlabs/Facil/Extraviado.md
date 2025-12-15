@@ -5,7 +5,7 @@ nmap -p- -sC -sV -sS --min-rate 5000 -n -vvv -Pn 172.17.0.2 -oN escaneo
 
 ![](../../../Images/Pasted%20image%2020250116185040.png)
 
-Reviso lo que corre por el puerto 80:
+Reviso lo que corre por el puerto 80 HTTP:
 
 ![](../../../Images/Pasted%20image%2020250116185109.png)
 
@@ -29,7 +29,7 @@ Y efectivamente, ahora estoy dentro de la máquina
 
 ## ESCALADA DE PRIVILEGIOS
 
-En el directorio /home/daniela/.secret, me encuentro con la contraseña del usuario diego
+En el directorio /home/daniela/.secret, me encuentro con la contraseña del usuario "diego"
 
 ![](../../../Images/Pasted%20image%2020250116185807.png)
 
@@ -37,13 +37,13 @@ Pero al parecer también está cifrada así que nuevamente haré uso de la herra
 
 ![](../../../Images/Pasted%20image%2020250116190133.png)
 
-Escalo a diego con la contraseña descifrada:
+Escalo a "diego" con la contraseña descifrada:
 
 ![](../../../Images/Pasted%20image%2020250116190200.png)
 
 Y ahora soy el usuario diego
 
-En la ruta /home/diego/.local/share, me encuentro con una nota que es un acertijo que dice:
+En la ruta /home/diego/.local/share, me encuentro con una nota que es un acertijo el cuál dice que contiene la contraseña del usuario "root":
 
 ![](../../../Images/Pasted%20image%2020250116193256.png)
 
