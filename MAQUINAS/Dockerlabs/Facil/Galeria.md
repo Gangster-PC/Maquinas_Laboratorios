@@ -32,7 +32,7 @@ Dentro de la carpeta images están todas las imágenes de la página principal:
 
 ![](../../../Images/Pasted%20image%2020251106155849.png)
 
-Y revisando el handler.php existe una subida de archivos:
+Y revisando el archivo handler.php existe una subida de archivos:
 
 ![](../../../Images/Pasted%20image%2020251106155925.png)
 
