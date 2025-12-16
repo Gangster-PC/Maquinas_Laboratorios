@@ -5,13 +5,13 @@ nmap -p- -sC -sV -sS --min-rate 5000 -n -vvv -Pn 172.17.0.2 -oN escaneo
 
 ![](../../../Images/Pasted%20image%2020250115101105.png)
 
-Tengo un único puerto abierto
+Tengo un único puerto abierto el puerto HTTP
 
 Reviso lo que corre por el puerto 80:
 
 ![](../../../Images/Pasted%20image%2020250115101210.png)
 
-Tengo un Drupal
+Estoy ante un Drupal
 
 Veré la versión a la cual me estoy enfrentando:
 
@@ -37,7 +37,7 @@ Y ejecuto el exploit:
 
 ![](../../../Images/Pasted%20image%2020250115102950.png)
 
- Y listo, estoy dentro de la máquina
+Y listo, estoy dentro de la máquina
 
 ## ESCALADA DE PRIVILEGIOS
 
@@ -45,7 +45,7 @@ Observo los usuarios que contiene esta máquina:
 
 ![](../../../Images/Pasted%20image%2020250115103133.png)
 
-Son 2 ballenita y root
+Son 2 "ballenita" y root
 
 Buscaré donde está ubicado el archivo settings.php para ver si en él tendré alguna pista:
 ```
@@ -58,13 +58,13 @@ Lo leo:
 
 ![](../../../Images/Pasted%20image%2020250115103451.png)
 
-Tengo la contraseña del usuario ballenita
+Tengo la contraseña del usuario "ballenita"
 
-Escalo al usuario ballenita:
+Escalo al usuario "ballenita":
 
 ![](../../../Images/Pasted%20image%2020250115103651.png)
 
-Ahora soy el usuario ballenita
+Ahora soy el usuario "ballenita"
 
 Ejecuto sudo -l para ver el binario que puedo usar 
 
