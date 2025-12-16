@@ -11,7 +11,7 @@ Reviso el puerto 80 HTTP:
 
 Al momento de tratar de cargar la página de una me salta un panel de Login Web, intento ver si es vulnerable a una posible inyección SQL, pero no lo es
 
-Entonces me resta lanzar un ataque de fuerza bruta hacía este panel de login con Hydra, de la forma/tipo admin:admin (usuario y contraseña seguidos separados por 2 puntos ":")
+Entonces me resta lanzar un ataque de fuerza bruta hacía este panel de login con Hydra, de la forma/tipo admin:admin (usuario y contraseña seguidos separados por 2 puntos ":") usando el siguiente diccionario:
 ```
 hydra -C /usr/share/seclists/Passwords/Default-Credentials/ftp-betterdefaultpasslist.txt http-get://172.17.0.2 -t 64
 ```
@@ -23,8 +23,6 @@ Y las credenciales usuario y contraseña de este panel son "httpadmin" y "fhttpa
 Me loguearé con estas credenciales:
 
 ![](../../../Images/Pasted%20image%2020251125204939.png)
-
-!
 
 Y una vez accedido, me encuentro ante una plantilla de Apache
 
