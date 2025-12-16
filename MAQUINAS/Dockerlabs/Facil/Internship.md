@@ -1,4 +1,4 @@
-Escaneo de puertos con Nmap
+Escaneo de puertos con Nmap:
 ```
 nmap -p- -sC -sV -sS --min-rate 5000 -n -vvv -Pn 172.17.0.2 -oN escaneo
 ```
@@ -30,7 +30,7 @@ Accedo a él:
 
 ![](../../../Images/Pasted%20image%2020251030191036.png)
 
-Se ve literalmente nada 
+Se ve una página en negro (literalmente nada)
 
 Revisando el código fuente de esta página me encuentro con:
 
@@ -44,7 +44,7 @@ Lo pasaré por Cyberchef a ver que resultado me da:
 
 Estaba codificado en ROT13, decodificado este mensaje me da una contraseña "purpl3", ahora me falta encontrar el usuario y a qué o a donde pertenecerían estas credenciales
 
-Con estas posibles contraseñas procederé a hacer un ataque de fuerza bruta con Hydra hacia el puerto 22 SSH para ver si pertenece esa contraseña a algún posible usuario
+Con esta posible contraseña procederé a hacer un ataque de fuerza bruta con Hydra hacia el puerto 22 SSH para ver si pertenece esa contraseña a algún posible usuario
 ```
 hydra -L /usr/share/wordlists/seclists/Usernames/xato-net-10-million-usernames-dup.txt -p purpl3 ssh://172.17.0.2 -t 64 
 ```
