@@ -32,7 +32,7 @@ Es un texto el cuál me da unas credenciales, las probaré en el puerto 22 SSH, 
 
 Y no, en este caso estas no son las credenciales correctas
 
-Posiblemente ese usuario si sea "dev", pero esa contraseña no pertenece a él, por ende realizaré un ataque de fuerza bruta con Hydra para encontrar la contraseña apuntando hacia el puerto SSH:
+Posiblemente ese usuario "dev" si exista, pero esa contraseña no pertenece a él, por ende realizaré un ataque de fuerza bruta con Hydra para encontrar la contraseña apuntando hacia el puerto SSH:
 ```
 hydra -l dev -P /usr/share/wordlists/rockyou.txt ssh://172.17.0.2 -t 64 
 ```
