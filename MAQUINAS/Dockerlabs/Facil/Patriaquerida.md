@@ -37,7 +37,7 @@ Accedo y lo leo:
 
 Es una posible contraseña, ahora voy a buscar el posible usuario.
 
-Pero para poder hacer eso, ya que pude explotar un RFI (Remote File Inclusion), veré que usuarios contiene la máquina en la carpeta /etc/passwd para saber a cuál pertenece la contraseña anteriormente encontrada:
+Pero para poder hacer eso, ya que pude explotar un Local File Inclusion (LFI), veré que usuarios contiene la máquina en la carpeta /etc/passwd para saber a cuál pertenece la contraseña anteriormente encontrada:
 
 ![](../../../Images/Pasted%20image%2020250116200413.png)
 
