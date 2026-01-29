@@ -12,6 +12,9 @@ Reviso lo que corre por el puerto 80:
 Tengo una plantilla de Apache
 
 Haré fuzzing web en busqueda de directorios con Gobuster:
+```
+gobuster dir -u http://172.17.0.2/ -w /usr/share/wordlists/seclists/Discovery/Web-Content/directory-list-lowercase-2.3-medium.txt -x html,php,txt
+```
 
 ![](../../../Images/Pasted%20image%2020250116194942.png)
 
@@ -19,7 +22,7 @@ Observo que hay en el directorio /index.php:
 
 ![](../../../Images/Pasted%20image%2020250116195143.png)
 
-Tengo una pista, así que procedo a hacer fuzzing web en para encontrar el parámetro que me permita leer el contenido de /var/www/html/.hidden_pass:
+Tengo una pista, así que procedo a hacer fuzzing web para encontrar el parámetro que me permita leer el contenido de /var/www/html/.hidden_pass usando la herramienta de Wfuzz:
 ```
 wfuzz -c -w /usr/share/wordlists/seclists/Discovery/Web-Content/directory-list-lowercase-2.3-medium.txt -u '172.17.0.2/index.php?FUZZ=/var/www/html/.hidden_pass' --hl 0
 ```
@@ -34,7 +37,7 @@ Accedo y lo leo:
 
 Es una posible contraseña, ahora voy a buscar el posible usuario.
 
-Ya que pude explotar un RFI (Remote File Inclusion), veré que usuarios contiene la máquina en la carpeta /etc/passwd para saber a cuál pertenece la contraseña anteriormente encontrada:
+Pero para poder hacer eso, ya que pude explotar un RFI (Remote File Inclusion), veré que usuarios contiene la máquina en la carpeta /etc/passwd para saber a cuál pertenece la contraseña anteriormente encontrada:
 
 ![](../../../Images/Pasted%20image%2020250116200413.png)
 
