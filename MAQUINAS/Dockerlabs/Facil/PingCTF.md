@@ -71,5 +71,4 @@ Lo ejecuto:
 
 ![](../../../Images/Pasted%20image%2020251126163200.png)
 
-Y verifico que sea root con los 2 comandos de la imagen, y efectivamente ya soy ROOT
-
+Y verifico que sea root con los 2 comandos que se muestran en la imagen, y efectivamente ya soy ROOT
