@@ -1,4 +1,7 @@
 Escaneo de puertos con Nmap:
+```
+nmap -p- -sC -sV -sS --min-rate 5000 -n -vvv -Pn 172.17.0.2 -oN escaneo
+```
 
 ![](../../../Images/Pasted%20image%2020240724100312.png)
 
@@ -186,7 +189,7 @@ Lo que contiene el script.sh ubicado en la carpeta /home/luciano es una reverse 
 
 ![](../../../Images/Pasted%20image%2020240725101701.png)
 
-Lo ejecutamos:
+Lo ejecuto:
 
 ![](../../../Images/Pasted%20image%2020240725101725.png)
 
