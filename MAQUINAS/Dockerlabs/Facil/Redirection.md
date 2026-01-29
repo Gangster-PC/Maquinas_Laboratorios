@@ -23,14 +23,14 @@ Y listo, estoy dentro de la máquina
 
 ## ESCALADA DE PRIVILEGIOS
 
-Buscaré copias de seguridad antiguas
+Buscaré copias de seguridad antiguas en toda la máquina
 ```
 find  / *.bak  2>/dev/null
 ```
 
 ![](../../../Images/Pasted%20image%2020250115110401.png)
 
-Y me llama la atención un /secret.bak
+Y me llama la atención una de ellas, la "/secret.bak"
 
 Lo leo:
 
