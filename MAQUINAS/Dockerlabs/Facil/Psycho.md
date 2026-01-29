@@ -18,19 +18,19 @@ Accedo a esta dirección:
 
 ![](../../../Images/Pasted%20image%2020240810142938.png)
 
-Tengo el usuario luisillo y vaxei
+Tengo el usuario "luisillo" y "vaxei"
 
 Buscaré una id_rsa de alguno de los 2 usuarios:
 
 ![](../../../Images/Pasted%20image%2020240811112051.png)
 
-Encuentro el id_rsa de el usuario vaxei
+Encuentro el id_rsa de el usuario "vaxei"
 
 Creo un archivo con esta id_rsa
 
 ![](../../../Images/Pasted%20image%2020240811112322.png)
 
-Le doy permisos y accedo por el puerto 22 con esta id_rsa siendo el usuario vaxei
+Le doy permisos y accedo por el puerto 22 SSH con esta id_rsa siendo el usuario "vaxei"
 
 ![](../../../Images/Pasted%20image%2020240811112552.png)
 
@@ -42,7 +42,7 @@ Ejecuto sudo -l para ver el binario que podré usar
 
 ![](../../../Images/Pasted%20image%2020240811112902.png)
 
-Para poder ser el usuario luisillo puedo ejecutar el binario Perl
+Para poder ser el usuario "luisillo" puedo ejecutar el binario Perl
 
 Miro en GTFOBins como puedo escalar con este binario:
 
@@ -52,13 +52,13 @@ Lo ejecuto:
 
 ![](../../../Images/Pasted%20image%2020240811113022.png)
 
-Y listo, ya soy el usuario luisillo de la máquina
+Y listo, ya soy el usuario "luisillo" de la máquina
 
 Ejecuto sudo -l para ver el binario que podré usar para seguir escalando privilegios:
 
 ![](../../../Images/Pasted%20image%2020240811113116.png)
 
-Puedo ser root ejecutando con python un archivo ubicado en /opt llamado paw.py
+Puedo ser root ejecutando con python un archivo ubicado en /opt llamado "paw.py"
 
 Observo lo que hace este archivo .py:
 
