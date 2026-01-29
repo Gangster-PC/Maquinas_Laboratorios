@@ -1,4 +1,7 @@
 Escaneo de puertos con Nmap:
+```
+nmap -p- -sC -sV -sS --min-rate 5000 -n -vvv -Pn 172.17.0.2 -oN escaneo
+```
 
 ![](../../../Images/Pasted%20image%2020240829095038.png)
 
@@ -15,13 +18,13 @@ Usaré la herramienta de Wpscan para ver posibles usuarios:
 
 ![](../../../Images/Pasted%20image%2020240829095623.png)
 
-Tengo 2 usuarios pressi y hacker
+Tengo 2 usuarios "pressi" y "hacker"
 
 Haré fuerza bruta a el usuario pressi con esta misma herramienta para encontrar su contraseña:
 
 ![](../../../Images/Pasted%20image%2020240829095842.png)
 
-Y la contraseña del usuario pressi es dumbass, coloco estas crendenciales en el panel de Login web del Wordpress
+Y la contraseña del usuario "pressi" es "dumbass", coloco estas crendenciales en el panel de Login web del Wordpress
 
 ![](../../../Images/Pasted%20image%2020240829095808.png)
 
