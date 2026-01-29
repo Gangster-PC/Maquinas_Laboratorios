@@ -1,4 +1,7 @@
 Escaneo de puertos con Nmap: 
+```
+nmap -p- -sC -sV -sS --min-rate 5000 -n -vvv -Pn 172.17.0.2 -oN escaneo
+```
 
 ![](../../../Images/Pasted%20image%2020240823080915.png)
 
@@ -6,28 +9,28 @@ Observo lo que corre en el puerto 80:
 
 ![](../../../Images/Pasted%20image%2020240823081120.png)
 
-Existe un mensaje de un supeusto "virus", pero observo que tengo un botón en la página web.
+Existe un mensaje de un supuesto "virus", pero observo que tengo un botón en la página web.
 Este botón me lleva a: 
 
 ![](../../../Images/Pasted%20image%2020240823081154.png)
 
-Pero tengo un ejemplos.php probaré si existe un Local File Inclusion (LFI), usaré la herramienta Wfuzz para encontrar el parámetro que me permite explotar esta vulnerabilidad: 
+Un directorio llamado /ejemplos.php probaré si existe un Local File Inclusion (LFI), usaré la herramienta Wfuzz para encontrar el parámetro que me permite explotar esta vulnerabilidad: 
 
 ![](../../../Images/Pasted%20image%2020240823081451.png)
 
-Y el parámetro es images, pruebo apuntando hacia la carpeta /etc/passwd para ver los usuarios que posee esta máquina: 
+Y el parámetro es "images", pruebo apuntando hacia la carpeta /etc/passwd para ver los usuarios que posee esta máquina: 
 
 ![](../../../Images/Pasted%20image%2020240823081524.png)
 
-Tengo de usuario a nico
+Tengo un usuario llamado "nico"
 
 Haré fuerza bruta a este usuario para encontrar la contraseña del puerto 22 SSH: 
 
 ![](../../../Images/Pasted%20image%2020240823082131.png)
 
-Y la contraseña es lovely
+Y la contraseña es "lovely"
 
-Intrusión por el puerto SSH con el usuario nico y la contraseña lovely: 
+Intrusión por el puerto 22 SSH con el usuario "nico" y la contraseña "lovely": 
 
 ![](../../../Images/Pasted%20image%2020240823082227.png)
 
