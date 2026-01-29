@@ -17,7 +17,7 @@ Haré fuerza bruta al puerto 22 SSH apuntando hacia este posible usuario con la 
 
 La contraseña de "a" es "secret"
 
-Intrusión por el puerto SSH:
+Intrusión por el puerto 22 SSH:
 
 ![](../../../Images/Pasted%20image%2020241006110958.png)
 
