@@ -11,11 +11,11 @@ En el puerto 80 tengo:
 
 Una subida de archivos
 
-Procedo a subir un archivo .php con una reverse shell hacia mi maquina Linux
+Procedo a subir un archivo .php con una reverse shell previamente creada con Msfvenom apuntando hacia mi Linux
 
 ![](../../../Images/Pasted%20image%2020240705201856%201.png)
 
-Ahora hago fuzzing web con Gobuster para encontrar el archivo que acabo de subir:
+Seguido de esto, procedo a hacer fuzzing web con Gobuster para encontrar el archivo que acabo de subir:
 ```
 gobuster dir -u http://172.17.0.2/ -w /usr/share/wordlists/seclists/Discovery/Web-Content/directory-list-lowercase-2.3-medium.txt -x html,php,txt
 ```
@@ -60,4 +60,3 @@ Lo ejecuto:
 ![](../../../Images/Pasted%20image%2020240705202830.png)
 
 Y listo, ya soy usuario ROOT 
-
