@@ -8,7 +8,7 @@ Reviso el puerto 80
 
 Y observo que se resalta mucho la V, tal vez puede que sea un posible usuario
 
-Accedo a la base de datos Mysql por el puerto 3306 con este usuario y su contraseña ie168:
+Accedo a la base de datos Mysql por el puerto 3306 con este usuario y su contraseña "ie168":
 ```
 mysql -h 172.17.0.2 -u V -pie168
 ```
