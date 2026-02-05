@@ -9,7 +9,7 @@ Observo lo que corre por la página web:
 
 ![](../../../Images/Pasted%20image%2020250106184322.png)
 
-Y respondiendo a la pregunta:
+Y respondiendo a la pregunta "Qué astrónomo alemán descubrió Neptuno?":
 
 ![](../../../Images/Pasted%20image%2020250106193305.png)
 
@@ -23,7 +23,7 @@ Accedo a él:
 
 ![](../../../Images/Pasted%20image%2020250106192629.png)
 
-Revisando el código fuente de esta página me encuentro con, en la línea 106:
+Revisando el código fuente de esta página me encuentro esto en la línea 106:
 
 ![](../../../Images/Pasted%20image%2020250106192704.png)
 
@@ -51,17 +51,17 @@ Observo los usuarios que pertenecen a esta máquina y me encuentro con el usuari
 
 ![](../../../Images/Pasted%20image%2020250106193813.png)
 
-Así que trato de escalar a él con la contraseña ya encontrada:
+Así que trato de escalar a él con la contraseña ya encontrada "Eisenhower":
 
 ![](../../../Images/Pasted%20image%2020250106193845.png)
 
-Ahora soy el usuario nasa
+Ahora soy el usuario "nasa"
 
 Ejecuto sudo -l para ver el binario que puedo usar para seguir escalando
 
 ![](../../../Images/Pasted%20image%2020250106193928.png)
 
-Puedo ser Elite con el binario Socat
+Puedo ser "Elite" con el binario Socat
 
 Miro en GTFOBins como puedo escalar con este binario:
 
@@ -71,7 +71,7 @@ Lo ejecuto:
 
 ![](../../../Images/Pasted%20image%2020250106194127.png)
 
-Y listo, ahora soy el usuario Elite
+Y listo, ahora soy el usuario "Elite"
 
 Ejecuto sudo -l para ver el binario que puedo usar
 
