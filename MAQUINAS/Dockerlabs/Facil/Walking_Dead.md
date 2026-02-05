@@ -28,7 +28,7 @@ wfuzz -c -w /usr/share/wordlists/seclists/Discovery/Web-Content/directory-list-l
 
 Ese parámetro que me falta es cmd
 
-Procedo a explotar la RFI, por ejemplo con el comando "whoami", para ver el usuario que sería en la máquina:
+Procedo a explotar la RFI, por ejemplo con el comando "whoami", para ver el usuario que yo sería en la máquina:
 
 ![](../../../Images/Pasted%20image%2020251030202154.png)
 
