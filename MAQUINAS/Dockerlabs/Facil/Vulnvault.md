@@ -12,7 +12,7 @@ Coloco cualquier cosa por probar a ver que pasa:
 
 Me responde con lo mismo que coloqué y genera un archivo .txt con lo que escribí
 
-Voy a colocar un comando para ver que archivos hay, por ejemplo "ls -ña" para ver si la máquina me responde:
+Voy a colocar un comando para ver que archivos hay, por ejemplo ";ls -la" para ver si la máquina me responde:
 
 ![](../../../Images/Pasted%20image%2020240827090123.png)
 
@@ -26,7 +26,7 @@ Así que leeré los usuarios que contiene esta máquina:
 
 ![](../../../Images/Pasted%20image%2020240827090415.png)
 
-Tengo el usuario samara
+Tengo el usuario "samara"
 
 Entonces veré si este usuario tiene id_rsa:
 
