@@ -34,7 +34,7 @@ Ahora con este archivo de texto haré fuerza bruta con la herramienta Crackmapex
 
 Encuentro el usuario jon con su contraseña seacercaelinvierno
 
-Buscaré carpetas dentro de esta maquina con Smbclient:
+Buscaré carpetas accesibles dentro de este recurso compartido, con Smbclient:
 
 ![](../../../Images/Pasted%20image%2020240722184429.png)
 
@@ -60,7 +60,7 @@ Tengo un mensaje de Jon hacia Aria dándole una contraseña pero en base 64
 
 Y al decodificarlo tengo "hijodelanister"
 
-Haré la intrusión con el usuario jon y la contraseña hijodelanister, por el puerto 22:
+Haré la intrusión con el usuario "jon" y la contraseña "hijodelanister", por el puerto 22:
 
 ![](../../../Images/Pasted%20image%2020240722184920.png)
 
@@ -72,7 +72,7 @@ Ejecuto sudo -l para ver el binario que podré usar
 
 ![](../../../Images/Pasted%20image%2020240722184957.png)
 
-Veo que puedo ser el usuario Aria ejecutando un script en python llamado .mensaje.py ubicado en el directorio de jon
+Veo que puedo ser el usuario "Aria" ejecutando un script en python llamado .mensaje.py ubicado en el directorio de jon
 
 Observo lo que contiene el .mensaje.py
 
@@ -84,11 +84,11 @@ Creo un archivo llamado hashlib.py con una bash:
 
 ![](../../../Images/Pasted%20image%2020240722185402.png)
 
-Ahora hago que el script de .mensaje.py lea mi archivo malicioso para así poder escalar al usuario Aria:
+Ahora hago que el script de .mensaje.py lea mi archivo malicioso para así poder escalar al usuario "Aria":
 
 ![](../../../Images/Pasted%20image%2020240722185519.png)
 
-Y listo ya soy aria
+Y listo ya soy "aria"
 
 Ejecuto sudo -l para ver el binario que podré usar
 
@@ -106,11 +106,11 @@ Procedo a leerlo para ver que dice:
 
 Tengo una posible contraseña que sería "drakaris"
 
-Ahora intentaré ser el usuario daenerys con la contraseña drakaris
+Ahora intentaré ser el usuario daenerys con la contraseña "drakaris"
 
 ![](../../../Images/Pasted%20image%2020240722185913.png)
 
-Listo ya soy daenerys
+Listo ya soy "daenerys"
 
 Ejecuto sudo -l para ver el binario que podré usar
 
