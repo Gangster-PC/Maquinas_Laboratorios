@@ -1,4 +1,7 @@
 Escaneo de puertos con Nmap:
+```
+nmap -p- -sC -sV -sS --min-rate 5000 -n -vvv -Pn 172.17.0.2 -oN escaneo
+```
 
 ![](../../../Images/Pasted%20image%2020240904194324.png)
 
@@ -16,7 +19,7 @@ Miro el secret:
 
 ![](../../../Images/Pasted%20image%2020240904202403.png)
 
-Tengo una historia muy larga, pero me llama la atención la frase "super_secure_password", la intetaré usar como palabra clave a ver que sucede:
+Tengo una historia muy larga, pero me llama la atención la frase "super_secure_password", la intetaré usar como palabra clave que me pide la página web del puerto 80:
 
 ![](../../../Images/Pasted%20image%2020240904202809.png)
 
@@ -68,13 +71,13 @@ Puede ser una contraseña esta pista, por ende veo los usuarios que contiene la 
 
 ![](../../../Images/Pasted%20image%2020240905202811.png)
 
-Y efectivamente es una contraseña y ahora soy el usuario codebad
+Y efectivamente es una contraseña y ahora soy el usuario "codebad"
 
 Ejecuto sudo -l para ver el binario que puedo usar
 
 ![](../../../Images/Pasted%20image%2020240905202841.png)
 
-Puedo ser el usuario metadata con un script llamado "code" ubicado en /home/codebad:
+Puedo ser el usuario "metadata" con un script llamado "code" ubicado en /home/codebad:
 
 ![](../../../Images/Pasted%20image%2020240905203325.png)
 
@@ -84,7 +87,7 @@ Es un script que realiza cualquier comando, por ende me lanzaré una Reverse She
 
 ![](../../../Images/Pasted%20image%2020240905203851.png)
 
-Y listo, ahora soy el usuario metadata
+Y listo, ahora soy el usuario "metadata"
 
 Flag de user:
 
@@ -100,7 +103,7 @@ Asi que accedo a esa carpeta:
 
 ![](../../../Images/Pasted%20image%2020240905204513.png)
 
-Me da una pequeña pista la cual nos dice que la contraseña de metadata puede ser metadatosmalos
+Me da una pequeña pista la cual nos dice que la contraseña de metadata puede ser "metadatosmalos"
 
 Ejecuto sudo -l para ver el binario que puedo usar (Colocando la contraseña de metada anteriormente decifrada):
 
@@ -119,12 +122,5 @@ Lo ejecuto:
 Y listo, ya soy ROOT
 
 Flag de root:
-<<<<<<< HEAD
 
 ![](../../../Images/Pasted%20image%2020240905204826.png)
-
-=======
->>>>>>> 5ba57b1 (Subida de archivos editada con Python para corregir formato de imagenes)
-
-![](../../../Images/Pasted%20image%2020240905204826.png)
-
