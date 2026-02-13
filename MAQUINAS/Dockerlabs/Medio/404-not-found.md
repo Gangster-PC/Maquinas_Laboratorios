@@ -1,8 +1,11 @@
 Escaneo de puertos con Nmap:
+```
+nmap -p- -sC -sV -sS --min-rate 5000 -n -vvv -Pn 172.17.0.2 -oN escaneo
+```
 
 ![](../../../Images/Pasted%20image%2020240827092418.png)
 
-Veo lo que corre en el puerto 80:
+Observo lo que corre en el puerto 80:
 
 ![](../../../Images/Pasted%20image%2020240827093427.png)
 
@@ -17,7 +20,7 @@ La clave secreta me dice:
 Revisando la url pues deduzco que toca buscar un subdominio, usaré Wfuzz para encontrarlo:
 
 ![](../../../Images/Pasted%20image%2020240827095214.png)
-El subdominio es info, accedo a él:
+El subdominio es "info", accedo a él:
 
 ![](../../../Images/Pasted%20image%2020240827095303.png)
 
@@ -51,17 +54,17 @@ Ejecuto sudo -l para ver el binario que podré usar
 
 ![](../../../Images/Pasted%20image%2020240827100115.png)
 
-Puedo ser el usuario 200-ok con un script hecho en python llamado calculator.py
+Puedo ser el usuario "200-ok" con un script hecho en python llamado calculator.py
 
 Ejecuto este script:
 
 ![](../../../Images/Pasted%20image%2020240827100502.png)
 
-Y literalmente tengo una calculadora, pero pruebo a escribir !bash y escalo de usuario:
+Y literalmente tengo una calculadora, pero pruebo a lanzame una !/bin/bash y escalo de usuario:
 
 ![](../../../Images/Pasted%20image%2020240827100558.png)
 
-Ahora soy el usuario 200-ok
+Ahora soy el usuario "200-ok"
 
 Flag de user:
 
