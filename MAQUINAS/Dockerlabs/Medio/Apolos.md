@@ -1,4 +1,7 @@
 Escaneo de puertos con Nmap:
+```
+nmap -p- -sC -sV -sS --min-rate 5000 -n -vvv -Pn 172.17.0.2 -oN escaneo
+```
 
 ![](../../../Images/Pasted%20image%2020240906192847.png)
 
@@ -115,7 +118,7 @@ Observo los usuarios que contiene esta máquina:
 
 ![](../../../Images/Pasted%20image%2020240912094956.png)
 
-Tiene el usuario Luisillo
+Tiene el usuario "Luisillo"
 
 Por ende me pasaré una herramienta de mi amigo Malfer para hacer fuerza bruta a este usuario luisillo usando el diccionario rockyou:
 
@@ -131,7 +134,7 @@ Y ejecuto la herramienta:
 
 ![](../../../Images/Pasted%20image%2020240912101107.png)
 
-Y la contraseña del usuario luisillo_o es 19831983
+Y la contraseña del usuario "luisillo_o" es "19831983"
 
 Escalo a este usuario:
 
@@ -156,7 +159,7 @@ john --format=crypt --wordlist=/usr/share/wordlists/rockyou.txt hash
 
 ![](../../../Images/Pasted%20image%2020240912102054.png)
 
-Y la contraseña de root es rainbow2
+Y la contraseña de root es "rainbow2"
 
 Escalo a root:
 
