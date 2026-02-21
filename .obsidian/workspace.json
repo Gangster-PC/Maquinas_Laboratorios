@@ -4,35 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "487da332ab1d95a2",
+        "id": "a322dbafb6469f3c",
         "type": "tabs",
         "children": [
           {
-            "id": "eee6d5aa4b468203",
+            "id": "c65ed15eb382f0ae",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MAQUINAS/Dockerlabs/Facil/Winfake.md",
+                "file": "MAQUINAS/Dockerlabs/Facil/Aidor.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Winfake"
-            }
-          },
-          {
-            "id": "8f2c392e77bc91ed",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "MAQUINAS/Dockerlabs/Facil/Winterfell.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Winterfell"
+              "title": "Aidor"
             }
           }
         ]
@@ -88,7 +74,8 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -179,27 +166,35 @@
       "obsidian42-brat:BRAT": false
     }
   },
-  "active": "eee6d5aa4b468203",
+  "active": "c65ed15eb382f0ae",
   "lastOpenFiles": [
-    "Images/Pasted image 20260212202544.png",
-    "Images/Pasted image 20260212202505.png",
-    "Images/Pasted image 20260212202452.png",
-    "Images/Pasted image 20260212202057.png",
-    "MAQUINAS/Dockerlabs/Facil/Winterfell.md",
-    "MAQUINAS/Dockerlabs/Facil/Winfake.md",
+    "MAQUINAS/TheHackerLabs/Principiante/Fruits.md",
+    "MAQUINAS/Dockerlabs/Facil/Aidor.md",
+    "Images/Pasted image 20260221174236.png",
+    "Images/Pasted image 20260221174130.png",
+    "Images/Pasted image 20260221174052.png",
+    "Images/Pasted image 20260221173936.png",
+    "Images/Pasted image 20260221173625.png",
+    "Images/Pasted image 20260221173525.png",
+    "MAQUINAS/TheHackerLabs/Principiante/CryptoLabyrinth.md",
+    "MAQUINAS/Dockerlabs/Facil/ConsoleLog.md",
     "MAQUINAS/Dockerlabs/Muy_facil/BreackMySSH.md",
-    "Images/Pasted image 20260212194955.png",
-    "Images/Pasted image 20260212194828.png",
+    "MAQUINAS/Dockerlabs/Muy_facil/BorazuwarahCTF.md",
+    "MAQUINAS/Dockerlabs/Facil/Allien.md",
+    "Images/Pasted image 20260221172652.png",
+    "Images/Pasted image 20260221172400.png",
+    "Images/Pasted image 20260221171344.png",
+    "Images/Pasted image 20260221170839.png",
+    "MAQUINAS/Dockerlabs/Facil/Grooti.md",
+    "MAQUINAS/Dockerlabs/Facil/PingCTF.md",
+    "MAQUINAS/Dockerlabs/Facil/Winfake.md",
+    "MAQUINAS/Dockerlabs/Facil/Winterfell.md",
     "MAQUINAS/Dockerlabs/Medio/404-not-found.md",
-    "Images/Pasted image 20260212194518.png",
-    "Images/Pasted image 20260212194353.png",
-    "Images/Pasted image 20260212194337.png",
     "MAQUINAS/Dockerlabs/Facil/Walking_Dead.md",
     "MAQUINAS/Dockerlabs/Medio/Apolos.md",
     "MAQUINAS/Dockerlabs/Medio/0xc0ffee.md",
     "MAQUINAS/Dockerlabs/Facil/Influencerhate.md",
     "MAQUINAS/Dockerlabs/Medio/Mapache2.md",
-    "MAQUINAS/Dockerlabs/Facil/Grooti.md",
     "MAQUINAS/TheHackerLabs/Principiante/Find-Me.md",
     "MAQUINAS/TheHackerLabs/Principiante/Academy.md",
     "MAQUINAS/Dockerlabs/Medio/Unrecover.md",
@@ -208,15 +203,6 @@
     "MAQUINAS/Dockerlabs/Facil/Bypassme.md",
     "MAQUINAS/TheHackerLabs/Avanzado/Aceituno.md",
     "MAQUINAS/Dockerlabs/Muy_facil/Vacaciones.md",
-    "MAQUINAS/Dockerlabs/Facil/Mirame.md",
-    "MAQUINAS/Dockerlabs/Facil/Ejotapete.md",
-    "MAQUINAS/Dockerlabs/Muy_facil/Obsession.md",
-    "MAQUINAS/Dockerlabs/Muy_facil/Hedgehod.md",
-    "MAQUINAS/Dockerlabs/Muy_facil/BorazuwarahCTF.md",
-    "MAQUINAS/Dockerlabs/Muy_facil/Sjd.md",
-    "MAQUINAS/Dockerlabs/Facil/PingCTF.md",
-    "Images/Pasted image 20251126163200.png",
-    "Images/Pasted image 20251126163157.png",
     "MAQUINAS/Dockerlabs/Muy_facil",
     "Vulnyx/Bajo",
     "Vulnyx",
