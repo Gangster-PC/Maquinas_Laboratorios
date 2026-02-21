@@ -9,7 +9,8 @@ Revisaré el puerto HTTP 80:
 
 ![](../../../Images/Pasted%20image%2020260212194337.png)
 
-Es una página web de "noticias", no encuentro nada relevante
+Es una página web de "noticias", no encuentro nada relevante.
+
 Por ende procederé a revisar su código fuente para ver si encuentro allí alguna pista:
 
 ![](../../../Images/Pasted%20image%2020260212194518.png)
