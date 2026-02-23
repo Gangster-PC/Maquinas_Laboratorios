@@ -19,7 +19,7 @@ Ya estoy registrado en la página, me doy cuenta que leyendo en la web tengo el 
 
 ![](../../../Images/Pasted%20image%2020260221170738.png)
 
-Revisaré si puedo leer por ejemplo el del usuario anterior, por ejemplo el #50:
+Revisaré si puedo leer por ejemplo el del usuario anterior, por ejemplo el #50. De ser así, me estaría enfrentando ante un *IDOR*:
 
 ![](../../../Images/Pasted%20image%2020260221170839.png)
 
