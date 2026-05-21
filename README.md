@@ -1,67 +1,90 @@
-# 🧠 Maquinas_Laboratorios 🔐
+# 🛡️ CTF Writeups — Penetration Testing Practice
 
-¡Bienvenido/a a este repositorio de CTFs estilo **Writeup Hacker**! 🧑‍💻🚀
-
----
-
-## 📌 ¿De qué trata este proyecto?
-
-Este proyecto recopila el análisis de **máquinas vulnerables** de las plataformas:
-
-- 🌐 [https://dockerlabs.es/](https://dockerlabs.es/)
-- 🧪 [https://thehackerslabs.com/](https://thehackerslabs.com/)
-
-Aquí encontrarás un **paso a paso detallado** (writeups) de cómo atacar cada máquina en **entornos controlados**, documentado en formato `.md` y acompañado con imágenes 📷 para que no te pierdas en ningún paso.
+> Detailed, step-by-step writeups of vulnerable machines from multiple cybersecurity platforms.  
+> Each writeup covers the full attack lifecycle: **Reconnaissance → Enumeration → Exploitation → Privilege Escalation**.
 
 ---
 
-## 🧨 ¿Cuál es el objetivo?
+## 📊 Platforms & Progress
 
-1. 🔎 **Reconocimiento** de servicios y vulnerabilidades  
-2. 🧠 **Explotación** de fallos de seguridad  
-3. 🕵️‍♂️ **Intrusión** en el sistema  
-4. 🛠️ **Escalada de privilegios** hasta conseguir ser `root`  
-5. 🏁 Obtener flags como `user.txt` y `root.txt` 🎯
-
----
-
-## 🙌 ¿Para quién está hecho?
-
-Este proyecto está pensado para cualquier persona que:
-
-- Se quede **estancada en un paso**
-- Quiera ver cómo otros resolvieron la máquina
-- Esté aprendiendo **pentesting con propósito**
-- Desee mejorar sus habilidades en **CTFs reales** con máquinas prácticas
+| Platform | Difficulty | Machines Solved |
+|---|---|:---:|
+| 🐳 [DockerLabs](https://dockerlabs.es/) | Very Easy | 9 |
+| 🐳 [DockerLabs](https://dockerlabs.es/) | Easy | 39 |
+| 🐳 [DockerLabs](https://dockerlabs.es/) | Medium | 22 |
+| 🧪 [TheHackersLabs](https://thehackerslabs.com/) | Beginner | 23 |
+| 🧪 [TheHackersLabs](https://thehackerslabs.com/) | Advanced | 18 |
+| | **TOTAL** | **111** |
 
 ---
 
-## 🧾 ¿Qué contiene?
+## 🔍 What You'll Find Here
 
-📁 Carpeta `MAQUINAS/`:  
-Writeups en Markdown de cada máquina con todos los pasos realizados.
+Each writeup includes:
 
-📁 Carpeta `Images/`:  
-Imágenes relacionadas con cada writeup (referenciadas en los `.md`).
+- 🔎 **Reconnaissance**: Port scanning and service enumeration (Nmap, Gobuster)
+- 🧠 **Vulnerability Analysis**: Identifying misconfigurations and exploitable services
+- 💥 **Exploitation**: Gaining initial access through web exploits, brute force, or service-specific attacks
+- 🛠️ **Privilege Escalation**: Escalating from low-privilege user to root/admin
+- 🏁 **Flags**: Capturing `user.txt` and `root.txt` as proof of compromise
 
-📁 Carpeta `.obsidian/`:  
-Configuraciones internas de Obsidian (puedes ignorarla si no usas Obsidian).
+---
+
+## 🛠️ Tools Frequently Used
+
+`Nmap` · `Burp Suite` · `Gobuster` · `Hydra` · `LinPEAS` · `John the Ripper` · `Metasploit` · `Netcat` · `SQLMap` · `Custom Scripts`
+
+---
+
+## 📁 Repository Structure
+
+```
+📦 Maquinas_Laboratorios
+├── 📂 MAQUINAS/
+│   ├── 📂 Dockerlabs/
+│   │   ├── 📂 Muy_facil/     (9 machines)
+│   │   ├── 📂 Facil/         (39 machines)
+│   │   └── 📂 Medio/         (22 machines)
+│   └── 📂 TheHackerLabs/
+│       ├── 📂 Principiante/  (23 machines)
+│       └── 📂 Avanzado/      (18 machines)
+└── 📂 Images/                (Screenshots for each writeup)
+```
+
+---
+
+## 🙌 Who Is This For?
+
+This project is designed for anyone who:
+
+- 🔒 Is learning **penetration testing** and wants real-world practice examples
+- 🧩 Gets **stuck on a step** and needs a detailed walkthrough
+- 📖 Wants to see **different approaches** to solving the same machine
+- 🎯 Is preparing for **cybersecurity certifications** (eJPT, OSCP, CEH)
+
+---
+
+## 👤 About Me
+
+I'm **Sleider Morales**, an IT Support Specialist and aspiring Cybersecurity Professional based in Bogotá, Colombia.
+
+- 🎓 Systems Engineering student at UNIMINUTO
+- 🔧 Professional experience in IT Support & Hardware Diagnostics
+- 🌍 Fluent in English (C1 Advanced — Certified) and Spanish (Native)
+- 💼 Available for freelance IT Support & Security work
+
+📧 **sleidermorales@gmail.com**  
+🔗 **[LinkedIn](https://www.linkedin.com/in/yourprofile)**
 
 ---
 
 ## ⚠️ Disclaimer
 
-> Este repositorio es únicamente con **fines educativos y de aprendizaje**.  
-> No está permitido usar este conocimiento en sistemas sin autorización.  
-> ⚔️ ¡Hacker ético siempre!
+> This repository is for **educational and ethical hacking purposes only**.  
+> All machines were attacked in **controlled, authorized environments**.  
+> Never use these techniques on systems without explicit permission.  
+> ⚔️ Ethical hacker always!
 
 ---
 
-## 💬 Créditos
-
-💻 Desarrollado y documentado por **Gangster-PC**  
-📚 Compartido para la comunidad que ama el hacking ético ❤️‍🔥
-
----
-
-¡Happy Hacking! 🧠💻🖤
+*Happy Hacking!* 🧠💻🖤
