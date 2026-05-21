@@ -7,14 +7,10 @@
 
 ## 📊 Platforms & Progress
 
-| Platform | Difficulty | Machines Solved |
-|---|---|:---:|
-| 🐳 [DockerLabs](https://dockerlabs.es/) | Very Easy | 9 |
-| 🐳 [DockerLabs](https://dockerlabs.es/) | Easy | 39 |
-| 🐳 [DockerLabs](https://dockerlabs.es/) | Medium | 22 |
-| 🧪 [TheHackersLabs](https://thehackerslabs.com/) | Beginner | 23 |
-| 🧪 [TheHackersLabs](https://thehackerslabs.com/) | Advanced | 18 |
-| | **TOTAL** | **111** |
+| Platform | Difficulty |
+|---|---|
+| 🐳 [DockerLabs](https://dockerlabs.es/) | Very Easy / Easy / Medium |
+| 🧪 [TheHackersLabs](https://thehackerslabs.com/) | Beginner / Advanced |
 
 ---
 
@@ -38,16 +34,16 @@ Each writeup includes:
 
 ## 📁 Repository Structure
 
-```
+```text
 📦 Maquinas_Laboratorios
 ├── 📂 MAQUINAS/
 │   ├── 📂 Dockerlabs/
-│   │   ├── 📂 Muy_facil/     (9 machines)
-│   │   ├── 📂 Facil/         (39 machines)
-│   │   └── 📂 Medio/         (22 machines)
+│   │   ├── 📂 Muy_facil/
+│   │   ├── 📂 Facil/
+│   │   └── 📂 Medio/
 │   └── 📂 TheHackerLabs/
-│       ├── 📂 Principiante/  (23 machines)
-│       └── 📂 Avanzado/      (18 machines)
+│       ├── 📂 Principiante/
+│       └── 📂 Avanzado/
 └── 📂 Images/                (Screenshots for each writeup)
 ```
 
@@ -74,7 +70,7 @@ I'm **Sleider Morales**, an IT Support Specialist and aspiring Cybersecurity Pro
 - 💼 Available for freelance IT Support & Security work
 
 📧 **sleidermorales@gmail.com**  
-🔗 **[LinkedIn](https://www.linkedin.com/in/yourprofile)**
+<!-- 🔗 **[LinkedIn](https://www.linkedin.com/in/yourprofile)** -->
 
 ---
 
